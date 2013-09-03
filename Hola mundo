@@ -1,0 +1,15 @@
+// holamundo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+
+int min() 
+{
+	cout <<"hola mundo";
+	getch();
+	return 0;
+}
+
