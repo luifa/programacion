@@ -18,7 +18,7 @@ int main ()
 	cin>> altura;
 	
 	area=(base*altura)/2.0;
-	cout<< "la altura es:" <<area;
+	cout<< "El area es: " <<area;
 	getch();
 
 
