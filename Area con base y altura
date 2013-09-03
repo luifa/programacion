@@ -1,0 +1,26 @@
+// areatriangulobasealtura.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "math.h"
+using namespace std;
+
+
+int main ()
+{
+	int base,altura;
+	float area;
+	cout<<"ingrese base:";
+	cin>> base;
+	cout<<"ingrese altura:";
+	cin>> altura;
+	
+	area=(base*altura)/2.0;
+	cout<< "la altura es:" <<area;
+	getch();
+
+
+	return 0;
+}
