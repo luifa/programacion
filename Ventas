@@ -1,0 +1,24 @@
+// Empresa.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int main()
+{
+	float venta1, venta2, venta3,ingresototal;
+	cout<< "Ingrese la venta por semana del producto A: ";
+	cin>> venta1;
+	cout<< "Ingrese la venta por semana del producto B: ";
+	cin>> venta2;
+	cout<< "Ingrese la venta por semana del producto C: ";
+	cin>> venta3;
+	ingresototal=(venta1+venta2+venta3)*4;
+	cout<< "El ingreso total por las ventas es: "<<ingresototal;
+	getch();
+
+
+	return 0;
+}
